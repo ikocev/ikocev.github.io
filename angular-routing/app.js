@@ -70,7 +70,7 @@ Demo.config(function($routeProvider){
 				}
 			).otherwise(
 				{
-					redirectTo: "/login"
+					redirectTo: "/home"
 				}
 			)
 		;
