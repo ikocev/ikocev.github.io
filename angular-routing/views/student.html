@@ -1,9 +1,7 @@
-SEARCH PANEL
-
 <div ng-controller="StudentCtrl">
 	<!-- Include View Content. -->
 	<div ng-switch="subview">
-		<div ng-switch-when="new" ng-include=" 'views/student.html' "></div>
+		<div ng-switch-when="personal" ng-include=" 'views/personal.html' "></div>
 		<div ng-switch-when="enroll-subjects" ng-include=" 'views/enrollsubject.html' "></div>
 		<div ng-switch-when="print" ng-include=" 'views/print.html' "></div>
 	</div>
